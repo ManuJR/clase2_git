@@ -1,0 +1,25 @@
+nodemodules
+
+ Dependencias
+node_modules/
+vendor/
+
+# Archivos de entorno y secretos
+.env
+.env.local
+*.pem
+*.key
+
+# Archivos de compilación y distribución
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y bases de datos temporales
+*.log
+*.sqlite
